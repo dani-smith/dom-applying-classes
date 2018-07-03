@@ -7,6 +7,7 @@ function start () {
   // The first example is done for you. Uncomment the line below and reload the browser.
   one()
   two()
+  three()
     
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -25,6 +26,11 @@ function two () {
   two.classList.add('green')
 }
 
-// CREATE FUNCTION three HERE
+function three () {
+  // First, we have to find the element:
+  var three = document.getElementById('three')
+
+  three.classList.add('purple')
+}
 
 // CREATE FUNCTION makeVisible HERE
